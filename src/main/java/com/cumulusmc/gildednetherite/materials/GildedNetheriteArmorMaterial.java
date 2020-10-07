@@ -38,7 +38,7 @@ public class GildedNetheriteArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "gilded_nethrite";
+        return "gilded_netherite";
     }
 
     @Override
@@ -51,8 +51,5 @@ public class GildedNetheriteArmorMaterial implements ArmorMaterial {
         return 1.5F;
     }
 
-    @Override
-    public float getFireProtection() {
-        return 1F;}
 
 }
