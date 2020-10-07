@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "gildednetherite:gilded_netherite"
+    }
+  },
+  "result": {
+    "item": "gildednetherite:netherite_helmet",
+    "count": 1
+  }
+}

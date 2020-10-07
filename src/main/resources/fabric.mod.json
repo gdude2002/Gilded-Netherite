@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "GildedNetherite",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Gilded Netherite",
+  "description": "An addon to netherite armor, finally fire proof!",
   "authors": [
-    "Me!"
+    "CumulusMC: sakiraa // gdude2002"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/gilded-netherite",
+    "sources": "https://github.com/CumulusMC/Guilded-Netherite"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
+  "icon": "assets/gildednetherite/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.cumulusmc.gildednetherite.GildedNetherite"
     ]
   },
   "mixins": [

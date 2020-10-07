@@ -1,7 +1,6 @@
 package com.cumulusmc.gildednetherite;
 
 import com.cumulusmc.gildednetherite.items.RegisterItems;
-import com.sun.jna.platform.win32.LMAccess;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -17,7 +16,6 @@ public class GildedNetherite implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        RegisterBlocks.register();
         RegisterItems.register();
     }
 }
