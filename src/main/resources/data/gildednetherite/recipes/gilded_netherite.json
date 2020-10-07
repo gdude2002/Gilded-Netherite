@@ -10,13 +10,13 @@
       "item": "minecraft:ghast_tear"
     },
     "G": {
-      "block": "minecraft:gold_block"
+      "item": "minecraft:gold_block"
     },
     "N": {
       "item": "minecraft:netherite_ingot"
     },
     "O": {
-      "block": "minecraft:obsidian"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

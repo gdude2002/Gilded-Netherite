@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "G G",
-    "GGG",
-    "GGG"
-  ],
-  "key": {
-    "G": {
-      "item": "gildednetherite:gilded_netherite"
-    }
+  "type": "minecraft:smithing",
+
+  "base": {
+    "item": "minecraft:netherite_chestplate"
   },
+
+  "addition": {
+    "item": "gildednetherite:gilded_netherite"
+  },
+
   "result": {
-    "item": "gildednetherite:netherite_chestplate",
+    "item": "gildednetherite:gilded_netherite_chestplate",
     "count": 1
   }
 }
