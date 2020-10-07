@@ -17,10 +17,10 @@ public class RegisterItems {
     public static final Item GILDED_NETHERITE_BOOTS = new ArmorItem(gildedNetheriteArmorMaterial, EquipmentSlot.FEET, new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
 
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier("gilded_netherite_mod", "gilded_netherite"), GILDED_NETHERITE);
-        Registry.register(Registry.ITEM, new Identifier("gilded_netherite_mod", "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
-        Registry.register(Registry.ITEM, new Identifier("gilded_netherite_mod", "gilded_netherite_chestplate"), GILDED_NETHERITE_CHESTPLATE);
-        Registry.register(Registry.ITEM, new Identifier("gilded_netherite_mod", "gilded_netherite_leggings"), GILDED_NETHERITE_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("gilded_netherite_mod", "gilded_netherite_boots"), GILDED_NETHERITE_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier("gildednetherite", "gilded_netherite"), GILDED_NETHERITE);
+        Registry.register(Registry.ITEM, new Identifier("gildednetherite", "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
+        Registry.register(Registry.ITEM, new Identifier("gildednetherite", "gilded_netherite_chestplate"), GILDED_NETHERITE_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier("gildednetherite", "gilded_netherite_leggings"), GILDED_NETHERITE_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier("gildednetherite", "gilded_netherite_boots"), GILDED_NETHERITE_BOOTS);
     }
 }

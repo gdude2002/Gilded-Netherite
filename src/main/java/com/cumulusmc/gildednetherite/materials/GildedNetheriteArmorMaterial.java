@@ -43,12 +43,16 @@ public class GildedNetheriteArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 3.1F;
+        return 3.5F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.2F;
+        return 1.5F;
     }
+
+    @Override
+    public float getFireProtection() {
+        return 1F;}
 
 }
