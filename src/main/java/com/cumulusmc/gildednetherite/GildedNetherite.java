@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 public class GildedNetherite implements ModInitializer {
 
     public static final ItemGroup GILDED_NETHERITE_GROUP = FabricItemGroupBuilder.create(
-            new Identifier("gilded_netherite", "gilded_netherite_group"))
+            new Identifier("gildednetherite", "gilded_netherite_group"))
             .icon(() -> new ItemStack(RegisterItems.GILDED_NETHERITE))
             .build();
 
