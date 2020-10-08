@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.cumulusmc.gildednetherite.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
