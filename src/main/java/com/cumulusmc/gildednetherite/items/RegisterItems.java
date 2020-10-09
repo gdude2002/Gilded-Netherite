@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class RegisterItems {
 
     public static final ArmorMaterial gildedNetheriteArmorMaterial = new GildedNetheriteArmorMaterial();
-    public static final Item GILDED_NETHERITE = new Gilded_Netherite_Item(new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
+    public static final Item GILDED_NETHERITE = new GildedNetheriteItem(new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
     public static final Item GILDED_NETHERITE_HELMET = new ArmorItem(gildedNetheriteArmorMaterial, EquipmentSlot.HEAD, new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
     public static final Item GILDED_NETHERITE_CHESTPLATE = new ArmorItem(gildedNetheriteArmorMaterial, EquipmentSlot.CHEST, new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
     public static final Item GILDED_NETHERITE_LEGGINGS = new ArmorItem(gildedNetheriteArmorMaterial, EquipmentSlot.LEGS, new Item.Settings().group(GildedNetherite.GILDED_NETHERITE_GROUP));
