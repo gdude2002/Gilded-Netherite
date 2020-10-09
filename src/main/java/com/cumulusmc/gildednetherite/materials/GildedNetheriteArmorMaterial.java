@@ -3,7 +3,6 @@ package com.cumulusmc.gildednetherite.materials;
 import com.cumulusmc.gildednetherite.items.RegisterItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.NetherStarItem;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -44,11 +43,11 @@ public class GildedNetheriteArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 3;
+        return 3.0F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 1;
+        return 0.1F;
     }
 }
