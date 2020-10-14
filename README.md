@@ -1,3 +1,2 @@
 # Gilded Netherite
-
-Gold gilded netherite for extra pigmen favorability
+Swim in lava with your new armor
