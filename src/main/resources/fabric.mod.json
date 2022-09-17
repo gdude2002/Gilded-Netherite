@@ -1,6 +1,7 @@
+
 {
   "schemaVersion": 1,
-  "id": "gildednetherite",
+  "id": "modid",
   "version": "${version}",
 
   "name": "Gilded Netherite",
@@ -9,12 +10,12 @@
     "CumulusMC: sakiraa // gdude2002"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/gilded-netherite",
-    "sources": "https://github.com/CumulusMC/Guilded-Netherite"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "ARR",
-  "icon": "assets/gildednetherite/icon.png",
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -25,12 +26,15 @@
   "mixins": [
     "gildednetherite.mixins.json"
   ],
+
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "~1.19",
+    "java": ">=17"
   },
   "suggests": {
     "flamingo": "*"
   }
 }
+
